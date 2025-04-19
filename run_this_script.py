@@ -54,7 +54,10 @@ distri_products = list(product(distri_list, repeat=2))
 # # print(len(distri_permutations))
 
 ### Set distri_part
-distri_part = distri_products[0:2]
+distri_part = distri_products[0:16]
+# distri_part = distri_products[16:32]
+# distri_part = distri_products[32:48]
+# distri_part = distri_products[48:64]
 # print(distri_part)
 
 ### MAX_CSTRNT_PERC_list
@@ -70,8 +73,8 @@ MAX_CSTRNT_PERC_list = MAX_CSTRNT_PERC_list[:]
 
 ### Number of Items
 num_items_0 = 10
-num_items_1 = 40
-num_items_2 = 100
+# num_items_1 = 40
+# num_items_2 = 100
 
 ### DEVICE ?
 device = 'aws_ec2'
