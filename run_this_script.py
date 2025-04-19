@@ -55,10 +55,10 @@ distri_products = list(product(distri_list, repeat=2))
 
 ### Set distri_part
 # distri_part = distri_products[0:1]
-# distri_part = distri_products[0:16]
+distri_part = distri_products[0:16]
 # distri_part = distri_products[16:32]
 # distri_part = distri_products[32:48]
-distri_part = distri_products[48:64]
+# distri_part = distri_products[48:64]
 # print(distri_part)
 
 ### MAX_CSTRNT_PERC_list
@@ -93,7 +93,7 @@ json_fp_prefix = 'data/general_gen_algo/aws'
 
 ### Set hyperparameters
 
-num_items = num_items_0
+num_items = num_items_1
 # print(num_items)
 
 # MAX_CSTRNT_PERC = 0.7
