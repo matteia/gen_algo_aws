@@ -6,7 +6,7 @@ __pycache__/*
 .idea/
 
 ###
-# data/general_gen_algo/aws
+# data/general_gen_algo/aws/*.json
 
 
 *.pem
