@@ -57,8 +57,8 @@ distri_products = list(product(distri_list, repeat=2))
 # distri_part = distri_products[0:1]
 # distri_part = distri_products[0:16]
 # distri_part = distri_products[16:32]
-distri_part = distri_products[32:48]
-# distri_part = distri_products[48:64]
+# distri_part = distri_products[32:48]
+distri_part = distri_products[48:64]
 # print(distri_part)
 
 ### MAX_CSTRNT_PERC_list
