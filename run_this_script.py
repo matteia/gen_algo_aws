@@ -148,8 +148,8 @@ genesis = copy.deepcopy(genesis_0)
 ### Commence Evolution
 for d in tqdm(range(len(distri_part))):
 # for d in range(len(distri_part[:])):
-    # print(distri_part[d][0])
-    # print(distri_part[d][1])
+    print(distri_part[d][0])
+    print(distri_part[d][1])
 
     ### generate item names (not crucial)
     items_list_0 = generate_items(num_items)
