@@ -1,0 +1,15 @@
+### pycaches
+__pycache__/*
+*/__pycache__/
+
+###
+.idea/
+
+###
+# data/general_gen_algo/aws
+
+
+*.pem
+
+### ignore nohup.out
+nohup.out
