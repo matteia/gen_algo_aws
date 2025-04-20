@@ -93,7 +93,7 @@ json_fp_prefix = 'data/general_gen_algo/aws'
 
 ### Set hyperparameters
 
-num_items = num_items_1
+num_items = num_items_2
 # print(num_items)
 
 # MAX_CSTRNT_PERC = 0.7
